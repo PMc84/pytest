@@ -19,11 +19,8 @@ for i in range(len(LIST2)):
 print("**************")
 print("")
 
-
-
 # compare LIST1 and LIST2 and return as SHAREDLIST
 SHAREDLIST = list(set(LIST1) &  set(LIST2))
-
 
 # loop to print the content of SHAREDLIST on new lines
 print("Cross over of both Lists")
@@ -31,5 +28,3 @@ print("************************")
 for i in range(len(SHAREDLIST)):
     print(SHAREDLIST[i])
 print("************************")
-
-

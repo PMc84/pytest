@@ -19,11 +19,8 @@ for i in LIST2:
 print("**************")
 print("")
 
-
-
 # compare LIST1 and LIST2 and return as SHAREDLIST
 SHAREDLIST = LIST1.intersection(LIST2)
-
 
 # loop to print the content of SHAREDLIST on new lines
 print("Cross over of both Lists")
@@ -31,5 +28,3 @@ print("************************")
 for i in SHAREDLIST:
     print(i)
 print("************************")
-
-
