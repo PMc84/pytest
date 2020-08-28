@@ -2,6 +2,7 @@
 LIST1 = {'Orange', 'Apple', 'Raspberry', 'Pear'}
 LIST2 = {'Strawberry', 'Apple', 'Pear', 'Peach'}
 SHAREDLIST = {}
+UNIQUELIST = {}
 
 # loop to print the content of LIST1 on new lines
 print("List 1 Content")
@@ -28,3 +29,16 @@ print("************************")
 for i in SHAREDLIST:
     print(i)
 print("************************")
+print ("")
+
+# compare LIST1 and LIST2 and return unique as UNIQUELIST
+UNIQUELIST = LIST1.symmetric_difference(LIST2)
+
+# loop to print the content of UNIQUELIST on new lines
+print("Unique items of both  Lists")
+print("************************")
+for i in UNIQUELIST:
+    print(i)
+print("************************")
+
+
