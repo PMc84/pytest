@@ -35,3 +35,6 @@ jobs:
     - name: fruitsV4
       run: |
         python3 fruitsV4.py
+    - name: fruitsV5
+      run: |
+        python3 fruitsV5.py
